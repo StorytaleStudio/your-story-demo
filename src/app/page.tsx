@@ -20,7 +20,7 @@ export default function Home() {
           <li>Set Up the Decap,  whitelabel to be Storytale </li>
           <li>Check demo of the project</li>
           <li>Create Themes and style updates in the backend</li>
-          <li>Construct landing page with form "activation"</li>
+          <li>Construct landing page with form &quot;activation&quot;</li>
         </ul>
 
         <div className={styles.ctas}>
