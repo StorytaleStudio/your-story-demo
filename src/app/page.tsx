@@ -7,18 +7,21 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
+          src="/storytale-logo-horizontal.svg"
+          alt="Storytale Studio Logo"
+          width={360}
+          height={56}
           priority
         />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+        <p>
+            Here we will craft the Your Story project.
+          </p>
+        <ul>
+          <li>Set Up the Decap,  whitelabel to be Storytale </li>
+          <li>Check demo of the project</li>
+          <li>Create Themes and style updates in the backend</li>
+          <li>Construct landing page with form "activation"</li>
+        </ul>
 
         <div className={styles.ctas}>
           <a
