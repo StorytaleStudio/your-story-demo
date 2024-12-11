@@ -1,8 +1,15 @@
 ---
 layout: blog
 title: "Let's Party"
-date: 1999-12-31 11:59:59 -0800
 thumbnail: "/images/prince.jpg"
 rating: 5
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
+coverImage: "/assets/blog/preview/cover.jpg"
+date: "2020-03-16T05:35:07.322Z"
+author:
+  name: Joe Haddad
+  picture: "/assets/blog/authors/joe.jpeg"
+ogImage:
+  url: "/assets/blog/preview/cover.jpg"
 ---
 This is the post body, where I write about our last chance to party before the Y2K bug destroys us all.

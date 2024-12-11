@@ -1,7 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { getAllPosts } from "@/lib/api";
+import { HeroPost } from "@/app/_components/hero-post";
+import { MoreStories } from "@/app/_components/more-stories";
 
 export default function Home() {
+  const allPosts = getAllPosts();
+  const heroPost = allPosts[0];
+  const morePosts = allPosts.slice(1);
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -22,6 +29,17 @@ export default function Home() {
           <li>Create Themes and style updates in the backend</li>
           <li>Construct landing page with form &quot;activation&quot;</li>
         </ul>
+
+        <HeroPost
+          title={heroPost.title}
+          coverImage={heroPost.coverImage}
+          date={heroPost.date}
+          author={heroPost.author}
+          slug={heroPost.slug}
+          excerpt={heroPost.excerpt}
+        />
+
+        {morePosts.length > 0 && <MoreStories posts={morePosts} />}
 
         <div className={styles.ctas}>
           <a
